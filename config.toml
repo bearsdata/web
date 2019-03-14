@@ -1,0 +1,270 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = ""
+languageCode = "en-AU"
+title = "DataBears"
+
+# Metadata
+[params]
+  author = "DataBears"
+  description = "We are a student run organization dedicated to empowering our community with data science skills highly desired on our campus, research, and industry."
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.jpg"
+  title = "Pure Love for Data"
+  description = ""
+
+# Navigation section
+[params.nav]
+  mission = "Our Mission"
+  #services = ""
+  team = "The Team"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img_3.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "tinkering"
+    title = "Tinkering"
+    description = "<p>DataBears is hosting general meetings to provide a space for students to work on independent data exploration and discuss interesting topic in data science. The tinker team aims to introduce Berkeley students data exploration, and in the process: complete some sort of analysis or project, develop skepticism, and learn about different undergraduate research opportunities. </p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "education"
+    title = "Education"
+    description = "<p>The education team aims to bring data science to high school curriculums. We will have dedicated members working on developing a course that breaks down data science into select categories: Python, Statistics, and Data Analysis/Applications. Furthermore, the team will arrange for members to teach at high schools DataBears has established connections with.</p>"
+    #description = "<p>Education team aims to bring data science education to high school students through creating and hosting workshops, and lobbying for integrating data science into current curriculum.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "Infra-development"
+    title = "InfraDev"
+    description = "<p>The infrastructure development team creates tools and softwares to support the data science community, including for our education and consulting teams.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 4
+    name = "Consulting"
+    title = "Consulting"
+    description = "<p>The consulting team consists of internal (on campus) and external consulting this semester. Projects are to be announced.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 5
+    name = "Logistics"
+    title = "Logistics"
+    description = "<p>We’re looking for people who are passionate about data to help with marketing, logistics, and communications for the organization.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+
+# Services section
+[params.services]
+  enable = false
+  video = true
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "Our Services"
+  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "Web Development"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "Retina Ready"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "Light Speed"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-pencil"
+    title = "Copyrighting"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-rocket"
+    title = "Load Fast"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-support"
+    title = "Customer Support"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+# Work section
+[params.work]
+  enable = false
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_4.jpg"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Meet The Team"
+  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.team.item]]
+    name = "Alan Pham"
+    position = "President"
+    description = "Hi! I'm Alan, I currently study CS and data science, and am also interested in economics/business. Besides that, I'm passionate about education and community service. In my free time, I like to play the piano, read, and go hiking. I'm very excited about Data Bears. We have an excellent team who is looking forward to doing great work with you all. I'm happy to talk if you have any questions or just want to chat."
+    img = "images/alan.png"
+    #email = "#"
+    #telephone = "#"
+    #facebook = "#"
+    #twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
+    #linkedin = "#"
+    #whatsapp = "#"
+
+  [[params.team.item]]
+    name = "Vinay Maruri"
+    position = "Board of Director; Tinkering"
+    description = "I'm a third year data science and economics major and I'm super excited to be leading the data tinkering team! When I'm not working, I really enjoy going off in a random direction and wandering, playing basketball, and plane spotting down at one of the airports! Hit me up on Facebook if you want to connect or talk about/do these things!"
+    img = "images/vinay.png"
+    #email = "#"
+    #facebook = "#"
+    #twitter = "#"
+    #instagram = "#"
+    #github = "#"
+
+  [[params.team.item]]
+    name = "Minos Park"
+    position = "Board of Director; InfraDev"
+    description = ""
+    img = "images/minos.png"
+    #email = ""
+    #facebook = "#"
+    #twitter = "#"
+    #instagram = "#"
+    github = "https://github.com/mrminos"
+    linkedin = "https://resume.minospark.com/"
+
+  [[params.team.item]]
+    name = "Frank Lin"
+    position = "Board of Director; Education"
+    description = "Head of the education team along with Kevin Lo. Just a few personal things about me, I love playing videogames (specifically League, started 7 years ago, haven't stopped). If you've got any questions about our team (or maybe you just want to play some League :wink: ), send me an email"
+    img = "images/frank.png"
+    email = "fklin@berkeley.edu"
+    #facebook = "#"
+    #twitter = "#"
+    #instagram = "#"
+    #github = "#"
+
+  [[params.team.item]]
+    name = "Kevin Lo"
+    position = "Board of Director"
+    description = "Hi! I'm Kevin, head of the education team alongside Frank Lin. About me: I strongly disapprove of Frank's League of Legends addiction mostly because he needs to get out of the house at some point to get some Vitamin D. I enjoy playing the guitar, playing basketball, jogging, and trolling Frank during my free time. Hit me up if you ever want to play pranks on Frank, chat, pet dogs, grab boba, or do whatever."
+    img = "images/kevin.jpg"
+    #email = "#"
+    #facebook = "#"
+    #twitter = "#"
+    #instagram = "#"
+    #github = "#"
+
+ # [[params.team.item]]
+ #   name = ""
+ #   position = "Board of Director"
+ #   description = ""
+ #   img = "images/person3.jpg"
+    #email = "#"
+    #facebook = "#"
+    #twitter = "#"
+    #instagram = "#"
+    #github = "#"
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   email = "#"
+  #   telephone = "#"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+  #   whatsapp = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email with anyone else."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = '<p><a href="https://www.ocf.berkeley.edu"><img height="36em" src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin.svg" alt="Hosted by the OCF" style="border: 0;" /></a><p style="font-size:0.5em">We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.</p></p>'
+  #github = "#"
+  #twitter = "#"
+  #facebook = "#"
+  #vine = "#"
+  #linkedin = "#"
+  #instagram = "#"
+  
