@@ -1,0 +1,27 @@
+image: monachus/hugo
+
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+before_script:
+  - apt-get update
+  - apt-get --yes --force-yes install rsync ssh
+
+pages:
+  script:
+  - hugo
+  - echo "${SSH_PRIVATE_KEY}" > id_rsa
+  - chmod 400 id_rsa
+  - mkdir "${HOME}/.ssh"
+  - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
+  - rsync -hrvz --delete -e 'ssh -i id_rsa' public/ databears@tsunami.ocf.berkeley.edu:~/public_html/
+  - rm id_rsa
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+
+
+
