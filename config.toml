@@ -17,9 +17,9 @@ title = "DataBears"
 
 # Navigation section
 [params.nav]
-  mission = "Our Mission"
+  mission = "Our Teams"
   #services = ""
-  team = "The Team"
+  team = "Exec Members"
   contact = "Get In Touch"
   # Include logo instead if HOME:
   # logo = "path/to/logo"
@@ -57,19 +57,22 @@ title = "DataBears"
     weight = 3
     name = "Infra-development"
     title = "InfraDev"
-    description = "<p>The infrastructure development team creates tools and softwares to support the data science community, including for our education and consulting teams.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    description = "<p>The infrastructure development team creates tools and softwares to support the data science community, including for our education and consulting teams.</p>"
+    #"<ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 4
     name = "Consulting"
     title = "Consulting"
-    description = "<p>The consulting team consists of internal (on campus) and external consulting this semester. Projects are to be announced.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    description = "<p>The consulting team consists of internal (on campus) and external consulting this semester. Projects are to be announced.</p>"
+    #"<ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 5
-    name = "Logistics"
-    title = "Logistics"
-    description = "<p>We’re looking for people who are passionate about data to help with marketing, logistics, and communications for the organization.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    name = "Operations"
+    title = "Operations"
+    description = "<p>Operations supports the club with marketing, logistics, communications, and finance.</p>"
+    #"<ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
 
 # Services section
@@ -157,8 +160,8 @@ title = "DataBears"
 # Team section
 [params.team]
   enable = true
-  title = "Meet The Team"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  title = "Meet The Executive Members"
+  #description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
   [[params.team.item]]
     name = "Alan Pham"
@@ -249,7 +252,7 @@ title = "DataBears"
 [params.contact]
   enable = true
   title = "Get In Touch"
-  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  message = "If you have any questions about DataBears, or would like to inquire about how to get involved in DataBears,<br>Please drop us a line at contact@db.berkeley.edu"
   name_placeholder = "Your name"
   email_placeholder = "Your email"
   email_disclaimer = "We'll never share your email with anyone else."
