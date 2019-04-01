@@ -214,7 +214,7 @@ title = "DataBears"
 
   [[params.team.item]]
     name = "Kevin Lo"
-    position = "Board of Director"
+    position = "Board of Director; Education Manager"
     description = "Hi! I'm Kevin, head of the education team alongside Frank Lin. About me: I strongly disapprove of Frank's League of Legends addiction mostly because he needs to get out of the house at some point to get some Vitamin D. I enjoy playing the guitar, playing basketball, jogging, and trolling Frank during my free time. Hit me up if you ever want to play pranks on Frank, chat, pet dogs, grab boba, or do whatever."
     img = "images/kevin.jpg"
     #email = "#"
