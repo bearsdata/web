@@ -180,7 +180,7 @@ title = "DataBears"
 
   [[params.team.item]]
     name = "Vinay Maruri"
-    position = "Board of Director; Tinkering"
+    position = "Board of Director; Tinkering Manager"
     description = "I'm a third year data science and economics major and I'm super excited to be leading the data tinkering team! When I'm not working, I really enjoy going off in a random direction and wandering, playing basketball, and plane spotting down at one of the airports! Hit me up on Facebook if you want to connect or talk about/do these things!"
     img = "images/vinay.png"
     #email = "#"
@@ -191,7 +191,7 @@ title = "DataBears"
 
   [[params.team.item]]
     name = "Minos Park"
-    position = "Board of Director; InfraDev"
+    position = "Board of Director; InfraDev Manager"
     description = ""
     img = "images/minos.png"
     #email = ""
@@ -203,7 +203,7 @@ title = "DataBears"
 
   [[params.team.item]]
     name = "Frank Lin"
-    position = "Board of Director; Education"
+    position = "Board of Director; Education Manager"
     description = "Head of the education team along with Kevin Lo. Just a few personal things about me, I love playing videogames (specifically League, started 7 years ago, haven't stopped). If you've got any questions about our team (or maybe you just want to play some League :wink: ), send me an email"
     img = "images/frank.png"
     email = "fklin@berkeley.edu"
